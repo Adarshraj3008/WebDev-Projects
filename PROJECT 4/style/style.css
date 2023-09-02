@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+    
+}
+body{
+  /* width: 100vw;
+  height: 100vh; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(pexels-maxyne-barcel-10402282\ 1.png);
+  background-size: 100vw 120vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px 0 60px;
+  margin-top: 25px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  gap: 63px;
+  
+}
+nav ul li{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 22px;
+}
+nav ul li a{
+  color: yellow;
+  text-decoration:none ;
+}
+nav ul li a:hover{
+color: rgb(250, 6, 6);
+}
+button{
+  color:white ;
+  background-color: #ff505f;
+  font-weight: 700;
+  font-style: normal;
+  border: none;
+  font-size: 24px;
+  line-height: 8px;
+  cursor: pointer;
+  padding: 12px 40px;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: yellow;
+  color: white;
+}
+.second-button{
+background: #ff505f;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  border: none;
+  padding: 24px 56px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.second-button:hover{
+  background-color: yellow;
+  color: white;
+}
+.centre{
+  max-width: 1154px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+
+}
+.centre h1{
+  font-style: normal;
+  font-family: "Dela Gothic One",cursive;
+  font-weight: 400;
+  font-size: 50px;
+  color: yellow;
+}
+.footer {
+  position: absolute;
+  bottom: 5px;
+  right: 40px;
+}

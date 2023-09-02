@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+h1{
+    border: 1px solid red;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.Laptop_largescreen,.Laptop_screen,.Tablet_screen,.Mobile_screen{
+    font-size: 40px;
+    text-align: center;
+    display: none;
+}
+@media screen and (min-width: 0px) {
+    body {
+      background-color: crimson;
+    }
+  
+    .Mobile_screen {
+      display: block;
+    }
+  }
+  @media screen and (min-width: 425px) {
+    body {
+      background-color: aqua;
+    }
+  
+    .Mobile_screen {
+      display: none;
+    }
+    .Tablet_screen {
+        display: block;
+      }
+  }
+  @media screen and (min-width: 768px) {
+    body {
+      background-color: darkgoldenrod;
+    }
+  
+    .Mobile_screen {
+      display: none;
+    }
+  
+    .Tablet_screen {
+      display: none;
+    }
+  
+    .Laptop_screen {
+      display: block;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    body {
+      background-color: green;
+    }
+  
+    .Mobile_screen {
+      display: none;
+    }
+  
+    .Tablet_screen {
+      display: none;
+    }
+  
+    .Laptop_screen {
+      display: none;
+    }
+    .Laptop_largescreen{
+        display: block;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    body {
+      background-color: blue;
+    }
+  
+    .Mobile_screen {
+      display: none;
+    }
+  
+    .Tablet_screen {
+      display: none;
+    }
+  
+    .Laptop_screen {
+      display: none;
+    }
+    .Laptop_largescreen{
+        display: none;
+    }
+  }
+

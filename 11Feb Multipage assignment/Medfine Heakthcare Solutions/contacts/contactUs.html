@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <linkhref="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./contacts.css">
+</head>
+<body>
+    <header>
+        <!-- createing navigation bar -->
+        <nav>
+            <div class="logo">
+                <img src="../Image/logo.png" alt="">
+            </div>
+            <div class="navigation-menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about us/aboutUs.html">About Us</a></li>
+                    <li><a href="./contacts/contactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <form action="">
+            <!-- creating form for contact us page-->
+            <h1 style="text-align: center;">CONTACT US</h1>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter Your name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter Your Email" required>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea placeholder="Enter Your Message" required></textarea>
+            </div>
+            <button id="btn">Submit</button>
+            <h3 id="submitted"></h3>
+            
+        </form>
+        <script src="./script.js"></script>
+    </main>
+</body>
+
+</html>
